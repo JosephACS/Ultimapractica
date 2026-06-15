@@ -9,9 +9,11 @@ import androidx.core.view.GravityCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.navigation.NavigationView
 
-class MainActivity2 : AppCompatActivity() {
+class MainActivity2 : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     lateinit var drawerLayout: DrawerLayout
+    private lateinit var navView: NavigationView
         override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -24,6 +26,8 @@ class MainActivity2 : AppCompatActivity() {
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar);
             drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
+            navView = findViewById<NavigationView>(R.id.nav_view)
+            navView.setNavigationItemSelectedListener(this)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.homeic)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
@@ -36,5 +40,24 @@ class MainActivity2 : AppCompatActivity() {
             }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onNavigationItemSelected(menuItem: MenuItem): Boolean {
+        val fragment = when (menuItem.itemId) {
+            R.id.menu_seccion_1 -> fragmentClientes()
+            R.id.menu_seccion_2 -> fragmentProductos()
+            R.id.menu_seccion_3 -> fragmentProveedores()
+            else -> null
+        }
+        fragment?.let {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.content_frame, it)
+                .commit()
+            menuItem.isChecked = true
+            supportActionBar?.title = menuItem.title
+        }
+        drawerLayout.closeDrawers()
+        return true
+
     }
 }
