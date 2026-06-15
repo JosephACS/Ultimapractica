@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📱 ActionBar, ToolBar, FloatingActionButton y Navigation Drawer
+#  ActionBar, ToolBar, FloatingActionButton y Navigation Drawer
 
 ### Aplicación Android desarrollada en Kotlin utilizando Material Design
 
@@ -17,7 +17,7 @@
 
 ---
 
-# 📖 Descripción
+#  Descripción
 
 Este proyecto fue desarrollado para la asignatura de **Aplicaciones Móviles**.
 
@@ -25,7 +25,7 @@ La aplicación implementa componentes fundamentales de Android utilizando **Mate
 
 ---
 
-# 🚀 Funcionalidades
+#  Funcionalidades
 
 ✅ ActionBar personalizada
 
@@ -51,18 +51,18 @@ La aplicación implementa componentes fundamentales de Android utilizando **Mate
 
 | Tecnología | Uso |
 |------------|-----|
-| 🤖 Android | Plataforma móvil |
-| 🟣 Kotlin | Lenguaje principal |
-| 🟢 Android Studio | Entorno de desarrollo |
-| 🎨 Material Design | Diseño de interfaz |
-| 📑 NavigationView | Menú lateral |
-| 🧩 Fragments | Navegación dinámica |
-| ➕ Floating Action Button | Acciones rápidas |
-| 📂 DrawerLayout | Menú desplegable |
+|  Android | Plataforma móvil |
+|  Kotlin | Lenguaje principal |
+|  Android Studio | Entorno de desarrollo |
+|  Material Design | Diseño de interfaz |
+|  NavigationView | Menú lateral |
+|  Fragments | Navegación dinámica |
+|  Floating Action Button | Acciones rápidas |
+|  DrawerLayout | Menú desplegable |
 
 ---
 
-# 📦 Dependencias
+#  Dependencias
 
 ```gradle
 dependencies {
@@ -78,7 +78,7 @@ dependencies {
 
 ---
 
-# 🏗 Estructura del Proyecto
+#  Estructura del Proyecto
 
 ```text
 app
@@ -116,9 +116,9 @@ app
 
 ---
 
-# 📋 Componentes Implementados
+#  Componentes Implementados
 
-## 🔹 ActionBar y ToolBar
+##  ActionBar y ToolBar
 
 Se implementó una ToolBar personalizada reemplazando la ActionBar tradicional.
 
@@ -131,7 +131,7 @@ Características:
 
 ---
 
-## 🔹 Menú de Opciones
+##  Menú de Opciones
 
 Opciones implementadas:
 
@@ -143,7 +143,7 @@ Cada opción muestra una notificación mediante Toast.
 
 ---
 
-## 🔹 Floating Action Button (FAB)
+##  Floating Action Button (FAB)
 
 Se agregó un botón flotante ubicado en la esquina inferior derecha.
 
@@ -161,7 +161,7 @@ fun onClickFAB(view: View) {
 
 ---
 
-## 🔹 Navigation Drawer
+##  Navigation Drawer
 
 Implementado mediante:
 
@@ -173,7 +173,7 @@ Permite mostrar un menú lateral deslizable.
 
 ---
 
-## 🔹 Cabecera Personalizada
+##  Cabecera Personalizada
 
 La cabecera contiene:
 
@@ -189,7 +189,7 @@ implementation 'de.hdodenhof:circleimageview:3.0.1'
 
 ---
 
-## 🔹 Fragments
+##  Fragments
 
 La navegación entre secciones se realiza mediante Fragments.
 
@@ -201,83 +201,30 @@ Funciones:
 
 ---
 
-# 📸 Capturas de Pantalla
-
-## 🏠 Pantalla Principal
-
-![Pantalla Principal](images/principal.png)
-
----
-
-## 📑 Menú Superior
-
-![Menu Superior](images/menu_superior.png)
-
----
-
-## ➕ Floating Action Button
-
-![FAB](images/fab.png)
-
----
-
-## 📂 Navigation Drawer
-
-![Navigation Drawer](images/navigation_drawer.png)
-
----
-
-## 🧩 Fragment Sección 1
-
-![Fragment 1](images/fragment1.png)
-
----
-
-## 🧩 Fragment Sección 2
-
-![Fragment 2](images/fragment2.png)
-
----
-
-## 🧩 Fragment Sección 3
-
-![Fragment 3](images/fragment3.png)
-
----
-
-# 🎥 Demostración
-
-Agregar un GIF mostrando el funcionamiento de la aplicación:
-
-```markdown
-![Demo](images/demo.gif)
-```
-
----
 
 # ▶️ Instalación
 
-### 1️⃣ Clonar el repositorio
+### 1️ Clonar el repositorio
 
 ```bash
 git clone https://github.com/usuario/repositorio.git
 ```
 
-### 2️⃣ Abrir en Android Studio
+### 2️ Abrir en Android Studio
 
 Abrir la carpeta del proyecto.
 
-### 3️⃣ Sincronizar Gradle
+### 3️ Sincronizar Gradle
 
 Esperar que Android Studio descargue las dependencias.
 
-### 4️⃣ Ejecutar
+### 4️ Ejecutar
 
 Conectar un dispositivo físico o iniciar un emulador.
 
 ---
 
-# 🎯 Resultados Obtenidos
+#  Resultados Obtenidos
 
 - Implementación correcta de Material Design.
 - Navegación mediante Navigation Drawer.
@@ -288,7 +235,7 @@ Conectar un dispositivo físico o iniciar un emulador.
 
 ---
 
-# 👨‍💻 Autor
+#  Autor
 
 ### Joan Calderón
 
@@ -303,7 +250,6 @@ Docente: Cristian Zambrano Vega, PhD
 ---
 
 <div align="center">
-
-⭐ Proyecto académico desarrollado en Android Studio y Kotlin ⭐
+Proyecto académico desarrollado en Android Studio y Kotlin 
 
 </div>
