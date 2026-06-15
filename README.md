@@ -27,27 +27,27 @@ La aplicación implementa componentes fundamentales de Android utilizando **Mate
 
 #  Funcionalidades
 
-✅ ActionBar personalizada
+ ActionBar personalizada
 
-✅ ToolBar con menú de opciones
+ ToolBar con menú de opciones
 
-✅ Floating Action Button (FAB)
+ Floating Action Button (FAB)
 
-✅ Navigation Drawer
+ Navigation Drawer
 
-✅ NavigationView
+ NavigationView
 
-✅ Cabecera personalizada
+ Cabecera personalizada
 
-✅ Fragments dinámicos
+ Fragments dinámicos
 
-✅ Toast Messages
+ Toast Messages
 
-✅ Material Design Components
+ Material Design Components
 
 ---
 
-# 🛠 Tecnologías Utilizadas
+#  Tecnologías Utilizadas
 
 | Tecnología | Uso |
 |------------|-----|
